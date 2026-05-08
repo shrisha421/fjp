@@ -18,7 +18,7 @@ public class Demo {
             Statement stmt = conn.createStatement();
 
             // Insert
-            stmt.executeUpdate("INSERT INTO actor(first_name, last_name) VALUES('Prapti','More')");
+            stmt.executeUpdate("INSERT INTO actor(first_name, last_name) VALUES('sita','sawant')");
             System.out.println("Data Inserted!");
 
             // Retrieve
